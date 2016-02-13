@@ -6,7 +6,7 @@ SCRIPTZ_HOME_DIR=$HOME/zzz/debScriptz
 
 # copy files to the home directory.
 echo "> Copying dot files to home directory"
-cp -rpf $SCRIPTZ_HOME_DIR/dotFiles $HOME/
+cp -rpf $SCRIPTZ_HOME_DIR/dotFiles/. $HOME
 
 echo "> Adding execute privileges do this file."
 chmod +x $SCRIPTZ_HOME_DIR/aaaUpdateDotFiles.sh
