@@ -1,9 +1,6 @@
 # ALIASES
 ################################################################################
 
-# DIRECTORIES OF NOTE
-SCRIPTZ_DIR = $HOME/zzz/debScriptz
-
 # aliases for paths.
 alias aaaGoNodeTest='cd $HOME/Dropbox/code/main/javascript/nodejs/nodeJSLab'
 alias aaaGoGoLangTest='cd $HOME/Dropbox/code/main/golang/golang_labs'
