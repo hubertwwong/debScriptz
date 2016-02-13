@@ -6,7 +6,7 @@ SCRIPTZ_DIR = $HOME/zzz/debScriptz
 
 # copy files to the home directory.
 echo "> Copying dot files to home directory"
-cp -rpf $SCRIPTZ_DIR/dotFiles $HOME/
+cp -rpf $HOME/$SCRIPTZ_DIR/dotFiles $HOME/
 
 # init bash rc files.
 echo "> Sourcing .bashrc"
