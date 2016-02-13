@@ -16,4 +16,4 @@ chmod +x $SCRIPTZ_HOME_DIR/scripts/.
 
 # init bash rc files.
 echo "> Sourcing .bashrc"
-exec bash
+source .bashrc
