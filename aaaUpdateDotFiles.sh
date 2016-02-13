@@ -4,6 +4,11 @@
 # YOU HAVE TO CHANGE THIS ONCE.
 SCRIPTZ_HOME_DIR=$HOME/zzz/debScriptz
 
+# GIT MAGIC
+git stash
+git stash drop
+git pull
+
 # copy files to the home directory.
 echo "> Copying dot files to home directory"
 cp -rpf $SCRIPTZ_HOME_DIR/dotFiles/. $HOME
