@@ -19,3 +19,5 @@ Debian does not setup sudo so a lot of commands wont work. Run the following com
 https://www.privateinternetaccess.com/forum/discussion/18063/debian-8-1-0-jessie-sudo-fix-not-installed-by-default
 
 ## Cloning repo.
+
+git clone https://github.com/hubertwwong/debScriptz.git
