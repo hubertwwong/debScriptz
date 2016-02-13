@@ -9,6 +9,9 @@ git stash
 git stash drop
 git pull
 
+echo "> Scripts home dir is:"
+echo $SCRIPTZ_HOME_DIR
+
 # copy files to the home directory.
 echo "> Copying dot files to home directory"
 cp -rpf $SCRIPTZ_HOME_DIR/dotFiles/. $HOME

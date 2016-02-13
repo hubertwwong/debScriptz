@@ -145,8 +145,7 @@ PS2="$HC$FRED&gt; $RS
 
 # FOR DEBIAN
 #export PATHDEFAULT=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-export SCRIPTZ_DIR=$HOME/zzz/debScriptz
-export PATHSETTING=$SCRIPTZ_DIR/scripts
+export PATHSETTING=$HOME/zzz/debScriptz/scripts
 export PATHNVM=$HOME/.nvm
 export PATHRVM=$HOME/.rvm/bin
 
