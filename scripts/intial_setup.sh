@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # This install the basics you need to install guest addition.
 # Fetch and install basic files.
 
