@@ -6,6 +6,7 @@ alias aaaGoNodeTest='cd $HOME/Dropbox/code/main/javascript/nodejs/nodeJSLab'
 alias aaaGoGoLangTest='cd $HOME/Dropbox/code/main/golang/golang_labs'
 alias aaaGoFin='cd $HOME/Dropbox/code/main/ruby/stock_scraper_2'
 alias aaaGoScriptz='cd $SCRIPTZ_HOME_DIR'
+alias aaaGoAnsible='cd $SCRIPTZ_ANSIBLE_DIR'
 
 # aliases for shells.
 alias ..="cd .."
