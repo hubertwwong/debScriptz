@@ -1,0 +1,7 @@
+#!/bin/bash
+
+sh aaaUpdateDotFiles
+sh aaaInstallVMBasicLibs
+sh aaaInstallAnsible
+sh aaaUpdateGuest
+sh aaaUpdateAll
