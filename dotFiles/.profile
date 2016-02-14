@@ -15,8 +15,8 @@ export PATHNVM=$HOME/.nvm
 export PATHRVM=$HOME/.rvm/bin
 
 # SCRIPTS DIR
-export SCRIPTZ_HOME_DIR="$HOME/zzz/debScriptz"
-export SCRIPTZ_ANSIBLE_DIR="$HOME/zzz/debScriptz/ansible"
+export SCRIPTZ_HOME_DIR=$HOME/zzz/debScriptz
+export SCRIPTZ_ANSIBLE_DIR=$HOME/zzz/debScriptz/ansible
 
 # FINAL PATH
 export PATH=$PATHRVM:$PATH:$PATHSCRIPTZ
