@@ -1,0 +1,13 @@
+---
+- hosts: local
+  tasks:
+   - name: Install Postgres
+     apt: pkg=postgres state=installed update_cache=true
+
+  task:
+    name: Install Postgres client
+    apt: pkg=postgresql-client state=installed update_cache=true
+
+  task:
+    name: Install Pg Admin
+    apt: pkg=pgadmin3 state=installed update_cache=true
