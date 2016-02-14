@@ -18,11 +18,7 @@
     with_items:
         - postgresql
         - libpq-dev
-
-- hosts: webservers
-  sudo: yes
-  sudo_user: postgres
-  gather_facts: no
+        - pgadmin3
 
   vars:
     dbname: myapp
