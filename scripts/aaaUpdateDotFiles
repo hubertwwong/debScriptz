@@ -1,13 +1,12 @@
 #!/bin/bash
 
-# PATH TO THIS DIR.
-# YOU HAVE TO CHANGE THIS ONCE.
-SCRIPTZ_HOME_DIR=$HOME/zzz/debScriptz
-
 # GIT MAGIC
 git stash
 git stash drop
 git pull
+
+# include paths
+include aaaPath
 
 echo "> Scripts home dir is:"
 echo $SCRIPTZ_HOME_DIR

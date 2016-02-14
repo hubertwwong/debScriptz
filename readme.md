@@ -4,6 +4,8 @@ These are my basic debian configuration for a VM install.
 
 
 
+
+
 # Initial setup.
 
 ## SUDO setup.
@@ -21,3 +23,15 @@ https://www.privateinternetaccess.com/forum/discussion/18063/debian-8-1-0-jessie
 ## Cloning repo.
 
 git clone https://github.com/hubertwwong/debScriptz.git
+
+By default this is assuming, you clone the repro into a zzz directory off HOME. If you are not, change the configuration for the proper directory
+
+
+
+
+
+# MISC LINKS
+
+## Ansible
+
+https://serversforhackers.com/an-ansible-tutorial

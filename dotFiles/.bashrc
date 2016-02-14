@@ -55,8 +55,6 @@ if [ -n "$force_color_prompt" ]; then
   fi
 fi
 
-
-
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
@@ -74,6 +72,9 @@ fi
 if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
+
+# DO YOU NEED THIS?
+source ~/.profile
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -133,24 +134,8 @@ PS2="$HC$FRED&gt; $RS
 
 
 
-# PATHS
-##############################################################################
-
-# FOR OSX
-# MACPORTS
-#export PATHPORT=/opt/local/bin:/opt/local/sbin
-
-# HEROKU
-#export PATHHEROKU=/usr/local/heroku/bin
-
-# FOR DEBIAN
-#export PATHDEFAULT=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-export PATHSETTING=$HOME/zzz/debScriptz/scripts
-export PATHNVM=$HOME/.nvm
-export PATHRVM=$HOME/.rvm/bin
-
-# Add RVM to PATH for scripting
-export PATH=$PATHRVM:$PATH:$PATHSETTING
+# RVM, NVM
+################################################################################
 
 # Load RVM into a shell session *as a function*
 # this needs to come last.
