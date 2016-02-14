@@ -20,10 +20,3 @@ alias ll='ls -Gal'
 #alias rrvmi='rvm install '
 #alias rrvmu='rvm use '
 #alias rrvml='rvm list'
-
-# aliases for git
-
-# alias for update various systems
-alias aaaAptGetAll="sudo apt-get update; sudo apt-get dist-upgrade -y; sudo apt-get clean -y;"
-alias aaaUpdateAll="sudo apt-get update; sudo apt-get dist-upgrade -y; sudo apt-get autoremove -y; sudo apt-get clean -y; rvm get stable; gem update; gem cleanup; nvm install stable;"
-alias aaaUpdateGuest="cd /media/cdrom; sudo sh VBoxLinuxAdditions.run; sudo m-a prepare;"
