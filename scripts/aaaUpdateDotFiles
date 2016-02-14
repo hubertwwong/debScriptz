@@ -5,9 +5,6 @@ git stash
 git stash drop
 git pull
 
-# include paths
-include aaaPath
-
 echo "> Scripts home dir is:"
 echo $SCRIPTZ_HOME_DIR
 
