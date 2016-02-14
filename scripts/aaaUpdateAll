@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sudo apt-get update
-sudo apt-get dist-upgrade -y
-sudo apt-get autoremove -y
-sudo apt-get clean -y
+yes | sudo apt-get -y update
+yes | sudo apt-get -y dist-upgrade
+yes | sudo apt-get -y autoremove
+yes | sudo apt-get -y clean
 rvm get stable
 gem update
 gem cleanup

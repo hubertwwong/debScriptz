@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd /media/cdrom
-sudo sh VBoxLinuxAdditions.run
-sudo m-a prepare
+yes | sudo sh VBoxLinuxAdditions.run
+yes | sudo m-a prepare
