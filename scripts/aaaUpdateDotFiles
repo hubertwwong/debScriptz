@@ -10,7 +10,7 @@ echo $SCRIPTZ_HOME_DIR
 
 # copy files to the home directory.
 echo "> Copying dot files to home directory"
-cp -rpf $SCRIPTZ_HOME_DIR/dotFiles/. $HOME
+cp -rpf $SCRIPTZ_HOME_DIR/dotFiles/. ~
 
 echo "> Adding execute privileges to scripts dir."
 chmod -R 755 $SCRIPTZ_HOME_DIR/scripts/
