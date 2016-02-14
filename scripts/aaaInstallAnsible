@@ -2,7 +2,7 @@
 
 # Install ansible
 yes | sudo apt-get -y install software-properties-common
-yes | sudo apt-add-repository -y ppa:ansible/ansible
+#yes | sudo apt-add-repository -y ppa:ansible/ansible
 yes | sudo apt-get -y update
 yes | sudo apt-get -y install ansible
 
