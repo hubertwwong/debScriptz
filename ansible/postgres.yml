@@ -1,6 +1,7 @@
 ---
 - hosts: all
   tasks:
+    sudo: yes
   - name: Install Postgres
     apt: pkg=postgres state=installed update_cache=true
   - name: Install Postgres client
