@@ -9,10 +9,10 @@
 
   tasks:
   - name: Install GPG key
-    shell: "gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3"
+    shell: gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
   - name: Install RVM
-    shell: "\\curl -sSL https://get.rvm.io | bash -s stable --ruby"
+    shell: \curl -sSL https://get.rvm.io | bash -s stable --ruby
   - name: Install Ruby 2.2 stable
-    shell: "rvm install {{ruby_ver}}"
+    shell: rvm install {{ruby_ver}}
   - name: Install Ruby 2.2 stable
-    shell: "rvm --default install {{ruby_ver}}"
+    shell: rvm --default use {{ruby_ver}}
