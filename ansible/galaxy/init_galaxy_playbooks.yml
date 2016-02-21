@@ -6,4 +6,3 @@
       with_items:
       - debops.secret
       - debops.postgresql
-      -

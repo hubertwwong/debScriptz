@@ -10,6 +10,6 @@
   - name: ensure packages are installed
     apt: name={{item}}
     with_items:
-        - postgresql
-        - libpq-dev
-        - pgadmin3
+    - postgresql
+    - libpq-dev
+    - pgadmin3
