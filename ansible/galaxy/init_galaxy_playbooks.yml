@@ -1,0 +1,9 @@
+---
+- hosts: all
+  sudo: yes
+  tasks:
+    - shell: ansible-galaxy install {{item}}
+      with_items:
+      - debops.secret
+      - debops.postgresql
+      -

@@ -1,7 +1,0 @@
----
-- hosts: all
-  tasks:
-    - shell: ls {{item}}
-      with_items:
-      - ~
-      - ~/zzz
