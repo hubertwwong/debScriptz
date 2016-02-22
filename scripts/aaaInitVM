@@ -1,7 +1,9 @@
 #!/bin/bash
 
-sh aaaInstallVMBasicLibs
-sh aaaInstallRVM
-sh aaaInstallChef
-sh aaaUpdateGuest
-sh aaaUpdateAll
+# This assumes that the files in debScriptz/scripts
+
+aaaInstallVMBasicLibs
+aaaInstallRVM
+aaaInstallChef
+aaaUpdateGuest
+aaaUpdateAll
