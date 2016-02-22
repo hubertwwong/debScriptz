@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "> Cloning fin repro."
+git clone git@bitbucket.org:f00u/stock_scraper_2.git
