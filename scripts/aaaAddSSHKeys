@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# creates ssh keys...
+# when you create them.
+# paste the public one into github or bitbucket.
+
+echo "> Create SSH keys."
+ssh-keygen -t rsa -C "hubertwwong@gmail.com"
