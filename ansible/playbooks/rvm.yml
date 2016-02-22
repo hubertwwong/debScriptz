@@ -1,5 +1,6 @@
 # Install RVM
-
+# Assumes that rvm puts the path in your bashrc.
+# or you do it yourself.
 ---
 - hosts: all
   gather_facts: no
@@ -7,7 +8,7 @@
   vars:
     username: clark
     ruby_ver: ruby-2.2-head
-    rvm_shell: source /home/{{username}}/.rvm/scripts/rvm &&
+    rvm_shell: . /home/{{username}}/.bashrc
 
   tasks:
   - name: Install GPG key
