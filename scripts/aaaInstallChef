@@ -2,7 +2,7 @@
 
 cd ~/zzz
 
-echo "> Source rvm. Not sure if you need to do this."
+echo "> Source bashrc. Not sure if you need to do this."
 source $HOME/.bashrc
 
 echo "> Source rvm. Not sure if you need to do this."
