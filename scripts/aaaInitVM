@@ -1,6 +1,7 @@
 #!/bin/bash
 
 sh aaaInstallVMBasicLibs
-sh aaaInstallAnsible
+sh aaaInstallRVM
+sh aaaInstallChef
 sh aaaUpdateGuest
 sh aaaUpdateAll

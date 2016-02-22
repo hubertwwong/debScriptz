@@ -33,7 +33,10 @@ Run the following commands.
 1. aaaUpdateDotFiles. (This will blow you your bashrc files.)
 2. In virtualbox, click on install guest additions.
 3. Double click on the cd icon to mount the image.
-4. aaaInitVM.
+4. aaaInitVM. (This will bootsrap enough of ansible to get it up and working)
+
+
+
 
 
 
@@ -42,6 +45,10 @@ Run the following commands.
 ## Process
 
 1. aaaGoAnsible. (This will take you to the playbook directory)
+2. sudo ansible-playbook init_galaxy_playbook.yml (This will download playbooks from the interwebs)
+3.
+
+
 
 ## Running playbooks
 

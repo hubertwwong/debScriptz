@@ -1,0 +1,24 @@
+#!/bin/bash
+
+cd ~/zzz
+
+echo "> Install chef"
+gem install chef --no-ri --no-rdoc
+
+chef-solo -v
+
+echo "> Install knife."
+gem install knife-solo --no-ri --no-rdoc
+
+echo "> Install berkshelf required gems."
+sudo apt-get install -y libxslt-dev libxml2-dev
+
+echo "> Install berkshelf."
+gem install berkshelf --no-ri --no-rdoc
+
+berks -v
+
+echo "> Install food critic. Cookbook debugger."
+gem install foodcritic --no-ri --no-rdoc
+
+foodcritic -V

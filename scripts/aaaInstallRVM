@@ -1,0 +1,16 @@
+#!/bin/bash
+
+echo "> Set RVM gpg key"
+gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+
+echo "> Install rvm"
+\curl -sSL https://get.rvm.io | bash
+
+echo "> Source rvm"
+source $HOME/.rvm/scripts/rvm
+
+echo "> Install ruby 2.2 head"
+rvm install ruby-2.2-head
+
+echo "> Use ruby 2.2. head"
+rvm use --default ruby-2.2-head
