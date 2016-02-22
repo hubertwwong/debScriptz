@@ -5,7 +5,9 @@
   gather_facts: no
 
   vars:
+    username: clark
     ruby_ver: ruby-2.2-head
+    bash_shell: source /home/{{username}}/.bashrc &&
 
   tasks:
   - name: Install GPG key
@@ -14,11 +16,8 @@
   - name: Install RVM
     shell: \curl -sSL https://get.rvm.io | bash -s stable --ruby
 
-    name: Source bashrc
-    shell: source ~/.bashrc
+  - name: Install Ruby 2.2 stable
+    shell: {{bash_shell}} rvm install {{ruby_ver}}
 
   - name: Install Ruby 2.2 stable
-    shell: rvm install {{ruby_ver}}
-    
-  - name: Install Ruby 2.2 stable
-    shell: rvm --default use {{ruby_ver}}
+    shell: {{bash_shell}} --default use {{ruby_ver}}
