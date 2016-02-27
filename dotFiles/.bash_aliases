@@ -17,6 +17,9 @@ alias ....="cd ../../.."
 alias l='ls -G'
 alias ll='ls -Gal'
 
+# alias for chef
+alias cclm='chef-client --local-mode'
+
 # aliases for rvm
 #alias rrvmi='rvm install '
 #alias rrvmu='rvm use '
