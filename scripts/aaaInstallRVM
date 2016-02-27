@@ -14,3 +14,6 @@ rvm install ruby-2.2-head
 
 echo "> Use ruby-head."
 rvm use --default ruby-2.2-head
+
+echo "> rdoc install. specinfra gets an error for some reason."
+gem install rdoc
