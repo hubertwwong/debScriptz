@@ -1,8 +1,5 @@
-some_dir = Pathname.new '/tmp/foo'
-some_file = some_dir + some_file
+directory '/tmp/foo'
 
-directory some_dir
-
-file some_file do
+file '/tmp/foo/hello.txt' do
   content 'hello world'
 end
