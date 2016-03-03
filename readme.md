@@ -44,3 +44,12 @@ Run the following commands.
 ## Init other repro.
 
 ## Init git repro
+
+
+
+# LINKS
+
+## RVM
+
+This has an simple install guide. Has an explaination of the rvmsudo thing.
+https://www.phusionpassenger.com/library/walkthroughs/deploy/ruby/aws/nginx/oss/install_language_runtime.html
