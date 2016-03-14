@@ -24,3 +24,5 @@ alias cclm='chef-client --local-mode'
 #alias rrvmi='rvm install '
 #alias rrvmu='rvm use '
 #alias rrvml='rvm list'
+
+# alias for node

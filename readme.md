@@ -45,7 +45,19 @@ Run the following commands.
 
 ## Init git repro
 
+## Chef commands
 
+Running a default recipe from cookbook
+
+```
+rvmsudo chef-client --local-mode --runlist 'recipe[learn_chef_apache2]'
+```
+
+Running a recipe from cookbook in the specific cookbook
+
+```
+rvmsudo chef-client --local-mode
+```
 
 # LINKS
 
