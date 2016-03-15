@@ -4,5 +4,9 @@
 # when you create them.
 # paste the public one into github or bitbucket.
 
-echo "> Create SSH keys."
-ssh-keygen -t rsa -C "hubertwwong@gmail.com"
+
+
+if [ ! -f $HOME/.ssh/id_rsa ]; then
+  echo "> Create SSH keys."
+  ssh-keygen -t rsa -C "hubertwwong@gmail.com"
+fi

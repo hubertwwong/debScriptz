@@ -6,11 +6,13 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | b
 #echo "> Source bashrc."
 #source ~/.bashrc
 
-echo "> Install node. This is the latest version. Needs a new shell"
-/bin/bash -c "nvm install node"
+echo "> Open a new shell and run aaaInstallNode"
 
-echo "> Alias node."
-/bin/bash -c "nvm alias default node"
+#echo "> Install node. This is the latest version. Needs a new shell"
+#/bin/bash -c "nvm install node"
+
+#echo "> Alias node."
+#/bin/bash -c "nvm alias default node"
 
 # https://github.com/creationix/nvm
 # This does not work.

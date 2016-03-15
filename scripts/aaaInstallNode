@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "> Install node"
+nvm install node
+
+echo "> Alias node."
+nvm alias default node
