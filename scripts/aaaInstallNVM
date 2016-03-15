@@ -3,14 +3,14 @@
 echo "> Install nvm."
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.31.0/install.sh | bash
 
-echo "> Source bashrc."
-source ~/.bashrc
+#echo "> Source bashrc."
+#source ~/.bashrc
 
-echo "> Install node. This is the latest version."
-nvm install node
+echo "> Install node. This is the latest version. Needs a new shell"
+/bin/bash -c "nvm install node"
 
 echo "> Alias node."
-nvm alias default node
+/bin/bash -c "nvm alias default node"
 
 # https://github.com/creationix/nvm
 # This does not work.

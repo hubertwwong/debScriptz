@@ -59,6 +59,14 @@ Running a recipe from cookbook in the specific cookbook
 rvmsudo chef-client --local-mode
 ```
 
+# TODO
+
+## Fix the install scripts to check for the ssh key.
+
+## Fix the NVM script.
+
+## Add an atom script.
+
 # LINKS
 
 ## RVM
