@@ -1,20 +1,20 @@
 #!/bin/bash
 
 # GIT MAGIC
-cd $SCRIPTZ_HOME_DIR
+cd $SCRIPTZ_HOME
 git stash
 git stash drop
 git pull
 
 echo "> Scripts home dir is:"
-echo $SCRIPTZ_HOME_DIR
+echo $SCRIPTZ_HOME
 
 # copy files to the home directory.
 echo "> Copying dot files to home directory"
-cp -rpf $SCRIPTZ_HOME_DIR/dotFiles/. ~
+cp -rpf $SCRIPTZ_HOME/dotFiles/. ~
 
 echo "> Adding execute privileges to scripts dir."
-chmod -R 755 $SCRIPTZ_HOME_DIR/scripts/
+chmod -R 755 $SCRIPTZ_HOME/scripts/
 
 # init bash rc files.
 echo "> Sourcing .bashrc"
