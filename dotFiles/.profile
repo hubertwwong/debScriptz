@@ -10,14 +10,13 @@
 
 # FOR DEBIAN
 #export PATHDEFAULT=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-export PATHSCRIPTZ=$SCRIPTZ_HOME_DIR
 export PATHNVM=$HOME/.nvm
 export PATHRVM=$HOME/.rvm/bin
 
 # SCRIPTS DIR
-export SCRIPTZ_HOME_DIR=~/zzz/debScriptz
-export SCRIPTZ_SCRIPTZ_DIR=$SCRIPTZ_HOME_DIR/scripts
-export SCRIPTZ_ANSIBLE_DIR=$SCRIPTZ_HOME_DIR/ansible
+export SCRIPTZ_HOME= $HOME/zzz/debScriptz
+export SCRIPTZ_SCRIPTZ=$SCRIPTZ_HOME/scripts
+export SCRIPTZ_ANSIBLE=$SCRIPTZ_HOME/ansible
 
 # FINAL PATH
-export PATH=$PATHRVM:$PATH:$SCRIPTZ_SCRIPTZ_DIR
+export PATH=$PATHRVM:$PATH:$SCRIPTZ_SCRIPTZ
