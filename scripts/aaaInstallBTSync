@@ -1,13 +1,12 @@
 #!/bin/bash
 
 # Setting up keys.
-yes | sudo gpg --keyserver pgp.mit.edu --recv-keys 6BF18B15
-yes | sudo gpg --keyserver pgp.mit.edu --recv-keys 6BF18B15
-yes | sudo gpg --armor --export 6BF18B15 | sudo apt-key add -
+sudo gpg --keyserver pgp.mit.edu --recv-keys 6BF18B15
+sudo gpg --armor --export 6BF18B15 | sudo apt-key add -
 
 # adding sources.
-yes | sudo echo deb http://debian.yeasoft.net/btsync $(lsb_release -cs) main contrib non-free >> /etc/apt/sources.list.d/btsync.list
-yes | sudo echo deb-src http://debian.yeasoft.net/btsync $(lsb_release -cs) main contrib non-free >> /etc/apt/sources.list.d/btsync.list
+sudo echo deb http://debian.yeasoft.net/btsync $(lsb_release -cs) main contrib non-free >> /etc/apt/sources.list.d/btsync.list
+sudo echo deb-src http://debian.yeasoft.net/btsync $(lsb_release -cs) main contrib non-free >> /etc/apt/sources.list.d/btsync.list
 
 # install btsync user
 yes | sudo apt-get update
