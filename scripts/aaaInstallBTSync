@@ -1,16 +1,18 @@
 #!/bin/bash
 
-# Setting up keys.
-sudo gpg --keyserver pgp.mit.edu --recv-keys 6BF18B15
-sudo gpg --armor --export 6BF18B15 | sudo apt-key add -
+# Run thru the wizard
+sh -c "$(curl -fsSL http://debian.yeasoft.net/add-btsync-repository.sh)"
 
 # adding sources.
-sudo echo deb http://debian.yeasoft.net/btsync $(lsb_release -cs) main contrib non-free >> /etc/apt/sources.list.d/btsync.list
-sudo echo deb-src http://debian.yeasoft.net/btsync $(lsb_release -cs) main contrib non-free >> /etc/apt/sources.list.d/btsync.list
+#sudo echo deb http://debian.yeasoft.net/btsync $(lsb_release -cs) main contrib non-free >> /etc/apt/sources.list.d/btsync.list
+#sudo echo deb-src http://debian.yeasoft.net/btsync $(lsb_release -cs) main contrib non-free >> /etc/apt/sources.list.d/btsync.list
 
 # install btsync user
-yes | sudo apt-get update
-yes | sudo apt-get install btsync-user
+#yes | sudo apt-get update
+#yes | sudo apt-get install btsync-user
+
+`which sudo` apt-get update
+`which sudo` apt-get install btsync-gui
 
 # Source
-# https://gist.github.com/zQueal/5692812
+# http://www.yeasoft.com/site/projects:btsync-deb:btsync-gui
