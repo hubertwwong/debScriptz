@@ -74,7 +74,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # DO YOU NEED THIS?
-source ~/.profile
+# source ~/.profile
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
