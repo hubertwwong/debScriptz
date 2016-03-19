@@ -9,11 +9,11 @@ echo "> Install rvm."
 echo "> Source rvm."
 source $HOME/.rvm/scripts/rvm
 
-echo "> Install ruby-head head. stick with 2.2 for now. 2.4 has issues."
-rvm install ruby-2.2-head
+echo "> Install ruby-head head. stick with 2.2 for now. 2.2.1 has issues."
+rvm install ruby-head
 
 echo "> Use ruby-head."
-rvm use --default ruby-2.2-head
+rvm use --default ruby-head
 
 echo "> rdoc install. specinfra gets an error for some reason."
 gem install rdoc

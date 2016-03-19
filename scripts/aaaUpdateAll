@@ -5,6 +5,8 @@ yes | sudo apt-get -y dist-upgrade
 yes | sudo apt-get -y autoremove
 yes | sudo apt-get -y clean
 rvm get stable
+rvm install ruby-head
+rvm use --default ruby-head
 gem update
 gem cleanup
 nvm install stable
