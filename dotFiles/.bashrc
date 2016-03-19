@@ -156,16 +156,16 @@ export SCRIPTZ_SCRIPTZ=$SCRIPTZ_HOME/scripts
 export SCRIPTZ_ANSIBLE=$SCRIPTZ_HOME/ansible
 
 # FINAL PATH
-export PATH=$PATHRVM:$PATHNVM:$PATHDEFAULT:$SCRIPTZ_SCRIPTZ
-
+# export PATH=$PATHRVM:$PATHNVM:$PATHDEFAULT:$SCRIPTZ_SCRIPTZ
+export PATH=$PATHDEFAULT:$SCRIPTZ_SCRIPTZ
 
 
 # RVM, NVM
 ################################################################################
 
+# LOAD NVM
+[[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"
+
 # Load RVM into a shell session *as a function*
 # this needs to come last.
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-
-# LOAD NVM
-[[ -s "$HOME/.nvm/nvm.sh" ]] && source "$HOME/.nvm/nvm.sh"
